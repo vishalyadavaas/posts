@@ -1,19 +1,19 @@
 
-# ✨ Day 1: Introduction to TypeScript 🚀
+## ✨ Day 1: Introduction to TypeScript 🚀
 
 ---
 
-## 🔹 What is TypeScript?
+### 🔹 What is TypeScript?
 
 TypeScript is a **statically typed superset of JavaScript** that compiles to plain JavaScript. It enhances JavaScript with **type safety**, **improved tooling**, and **modern features**, making development faster, more reliable, and scalable.
 
-### ⚡ JavaScript but with Superpowers!
+#### ⚡ JavaScript but with Superpowers!
 
 Unlike JavaScript, where errors appear at runtime, **TypeScript catches issues at compile time**, reducing debugging time and making code more predictable.
 
 ---
 
-## 🎯 Why Use TypeScript?
+### 🎯 Why Use TypeScript?
 
 ✅ **Static Typing** – Detects errors before execution.
 ✅ **Better Readability** – Enforces clear function signatures and types.
@@ -23,7 +23,7 @@ Unlike JavaScript, where errors appear at runtime, **TypeScript catches issues a
 
 ---
 
-## ⚡ TypeScript vs. JavaScript
+### ⚡ TypeScript vs. JavaScript
 
 | Feature            | 🟠 JavaScript   | 🔵 TypeScript                    |
 | ------------------ | --------------- | -------------------------------- |
@@ -37,7 +37,7 @@ Unlike JavaScript, where errors appear at runtime, **TypeScript catches issues a
 
 ---
 
-## ⚙️ How TypeScript Works?
+### ⚙️ How TypeScript Works?
 
 1️⃣ Write TypeScript Code (`.ts` files).
 2️⃣ Compile it using the **TypeScript Compiler (`tsc`)**, which converts `.ts` files into `.js` files.
@@ -45,7 +45,7 @@ Unlike JavaScript, where errors appear at runtime, **TypeScript catches issues a
 
 ---
 
-## 🛠 Setting Up TypeScript
+### 🛠 Setting Up TypeScript
 
 To install TypeScript globally, use:
 
@@ -63,9 +63,9 @@ Now, you can create and run TypeScript files! 🎉
 
 ---
 
-## 📝 Example: TypeScript vs. JavaScript
+### 📝 Example: TypeScript vs. JavaScript
 
-### ❌ JavaScript Code (No Type Safety)
+#### ❌ JavaScript Code (No Type Safety)
 
 ```javascript
 function add(a, b) {
@@ -79,7 +79,7 @@ console.log(add("5", 10)); // Output: "510" (Incorrect!)
 
 ---
 
-### ✅ TypeScript Code (Type-Safe)
+#### ✅ TypeScript Code (Type-Safe)
 
 ```typescript
 function add(a: number, b: number): number {
@@ -93,7 +93,7 @@ console.log(add("5", 10)); // ❌ Error: Argument must be a number
 
 ---
 
-## 🌎 Where is TypeScript Used?
+### 🌎 Where is TypeScript Used?
 
 🚀 **Large-Scale Applications** – Microsoft, Google, Airbnb.
 🔗 **Backend Development** – Works seamlessly with Node.js.
@@ -102,7 +102,7 @@ console.log(add("5", 10)); // ❌ Error: Argument must be a number
 
 ---
 
-## 🎯 Conclusion
+### 🎯 Conclusion
 
 TypeScript enhances JavaScript by making it **safer**, **scalable**, and **easier to maintain**. Whether working on a small project or a large-scale application, TypeScript ensures **clean**, **error-free**, and **optimized code**. 💡✨
 
