@@ -1,10 +1,10 @@
-# ✨ Day 2: Setting Up TypeScript 🚀
+## ✨ Day 2: Setting Up TypeScript 🚀
 
 Welcome back to **Day 2** of our TypeScript journey! Today, we’ll focus on **setting up TypeScript** and getting started with our first TypeScript project. Let’s dive in! 🎉
 
 ---
 
-## 🛠️ Installing TypeScript
+### 🛠️ Installing TypeScript
 
 To start using TypeScript, you need to install it globally on your system. Follow these steps:
 
@@ -24,11 +24,11 @@ If you see the version number, TypeScript is successfully installed! ✅
 
 ---
 
-## 📂 Setting Up a TypeScript Project
+### 📂 Setting Up a TypeScript Project
 
 Let’s create a new TypeScript project step by step:
 
-### 1️⃣ Initialize a New Project
+#### 1️⃣ Initialize a New Project
 
 Run the following command to create a `package.json` file:
 
@@ -40,7 +40,7 @@ This will create a basic `package.json` file for your project.
 
 ---
 
-### 2️⃣ Install TypeScript Locally
+#### 2️⃣ Install TypeScript Locally
 
 Install TypeScript as a development dependency in your project:
 
@@ -50,7 +50,7 @@ npm install typescript --save-dev
 
 ---
 
-### 3️⃣ Create a `tsconfig.json` File
+#### 3️⃣ Create a `tsconfig.json` File
 
 Run the following command to generate a `tsconfig.json` file:
 
@@ -62,7 +62,7 @@ This file contains all the configuration options for your TypeScript project. Yo
 
 ---
 
-### 4️⃣ Write Your First TypeScript File
+#### 4️⃣ Write Your First TypeScript File
 
 Create a new file named `index.ts` and add the following code:
 
@@ -76,7 +76,7 @@ console.log(greet("Developer"));
 
 ---
 
-### 5️⃣ Compile TypeScript to JavaScript
+#### 5️⃣ Compile TypeScript to JavaScript
 
 Run the following command to compile your TypeScript file:
 
@@ -88,7 +88,7 @@ This will generate a JavaScript file (`index.js`) in the same directory.
 
 ---
 
-### 6️⃣ Run the Compiled JavaScript File
+#### 6️⃣ Run the Compiled JavaScript File
 
 Use Node.js to execute the compiled JavaScript file:
 
@@ -101,7 +101,7 @@ You should see the output:
 
 ---
 
-## 🔧 Customizing `tsconfig.json`
+#### 🔧 Customizing `tsconfig.json`
 
 Here are some useful options you can enable in your `tsconfig.json` file:
 
@@ -125,6 +125,6 @@ Example:
 
 ---
 
-## 🎯 Conclusion
+### 🎯 Conclusion
 
 Congratulations! 🎉 You’ve successfully set up TypeScript and written your first TypeScript program. Setting up TypeScript might seem like a lot at first, but it’s worth it for the type safety and developer experience it provides.
